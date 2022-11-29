@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina-Football-Team</title>
+    <!-- fabicon Icon add -->
+    <link rel="shortcut icon" href="img/logo(1).png" type="image/x-icon">
+    <!-- goooglefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope&display=swap" rel="stylesheet">
+    <!-- bootstrape css file add -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header-section">
+        <div class="header-title">
+            <h1>The Best Soccer Player In The World 2022</h1>
+            <p class="text-white">Perhaps the top 1 will surprise many people. However, we think the current Ballon d’Or
+                owner – Robert Lewandowski deserves this ranking. The 32-year-old Bayern with position forward might
+                currently be the greatest goalscorer in the world.</p>
+        </div>
+    </header>
+    <!-- =========================== header section end ===================== -->
+    <section id="players">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-9">
+                    <div class="row ">
+                        <div class=" col-lg-4 g-4 ">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="img/player/player 1.jpg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4 id="lioneal-messi">Lioneal Messi</h4>
+                                        <p>90 Goals . 120 Assist</p>
+                                        <button id="first-player"  class="btn btn-primary w-100 py-1" onclick="selectValue(this)">SELECT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 g-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="img/player/player 2.jpg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4 id="di-maria">Angel Di Maria</h4>
+                                        <p>30 Goals . 100 Assist</p>
+                                        <button id="second-player"  class="btn btn-primary w-100 py-1" onclick="selectValue(this)">SELECT</button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 g-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="img/player/player 3.jpg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4 id="lau-martinez">Lautaro Martinez</h4>
+                                        <p>25 Goals . 80 Assist</p>
+                                        <button id="third-player" class=" btn btn-primary w-100 py-1" onclick="selectValue(this)">SELECT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-white g-4">
+                    <div class="card text-start">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <div>
+                                <h4 class="text-center">Selected - V <span id="selected-values">0</span></h4>
+                                </div>
+                                <ul id="append-child">
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-9">
+                    <div class="row ">
+                        <div class=" col-lg-4 g-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="img/player/player 4.jpg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4 id="em-martinez">Emilian Martinez</h4>
+                                        <p>6 Goals . 120 Assist</p>
+                                        <button id="fourth-player" class="btn btn-primary w-100 py-1" onclick="selectValue(this)">SELECT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 g-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="img/player/player 5.jpg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4 id="higuain">Gonzalo Higuain</h4>
+                                        <p>40 Goals . 110 Assist</p>
+                                        <button id="five-player" class="btn btn-primary w-100 py-1" onclick="selectValue(this)" >SELECT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 g-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="img/player/player 6.jpg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <h4 id="dybala">Paullo Dybala</h4>
+                                        <p>6 Goals . 20 Assist</p>
+                                        <button id="six-player" class=" btn btn-primary w-100 py-1" onclick="selectValue(this)" >SELECT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-white g-4">
+                    <div class="card text-start">
+                        <div class="card-body d-grid gap-3">
+                            <div class="card-title">
+                                <h4 class="text-center">Budget</h4>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div> Per Player </div>
+                                <div>
+                                    <input id="per-player-cost" type="text" name="" id="" cols="">
+                                </div>
+                            </div>
+                            <button id="btn-calculate" class="btn btn-primary w-100 py-1">Calculate</button>
+                            <div class="d-flex justify-content-between">
+                                <div> Player Expenses </div>
+                                <div>
+                                    <span>$</span> <span id="Expenses">000</span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div> Manager </div>
+                                <div>
+                                    <input id="manegar-input-value" type="text" name="" id="" cols="">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div> Coach </div>
+                                <div>
+                                    <input id="coach-inpue-value" type="text" name="" id="" cols="">
+                                </div>
+                            </div>
+                            <button id="btn-total-cost" class="btn btn-primary w-100 py-1">Calculate Total</button>
+                            <div class="d-flex justify-content-between">
+                                <div> Total </div>
+                                <div>
+                                    <span class="text-danger">$</span> <span id="total" class="text-danger">000</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="bg-light">
+    <section class="footer-section py-4 text-center text-white">
+        <div class="footer ">
+            <p>Copyright @ 2022 All Rights Reserved.</p>
+        </div>
+    </section>
+
+
+    <!-- bootstrape script file add -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- script file add -->
+    <script src="js/listCount.js"></script>
+    <script src="js/totalCost.js"></script>
+</body>
+
+</html>
